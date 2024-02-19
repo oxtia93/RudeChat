@@ -181,9 +181,6 @@
         margin-left: 42px !important;
       }
 
-
-
-     
      /* New update changes */
 
 
@@ -197,20 +194,24 @@
       }         
     }
 
-/* Target MacBook Air */
-@media only screen and (min-device-width: 11.6in) and (max-device-width: 13.3in) {
-   top: 360px !important;
-}
-
 
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #bottom_main_id
   {
    top: 360px !important;
   }
-} */
+}
+
+  @media screen and (min-width: 1100px) {
+  #bottom_main_id
+  {
+   top: 380px !important;
+  }
+}
+
+        
 
 /* Styles for screens larger than 1200px (common large desktop screens) */
 /* @media screen and (min-width: 1200px) {
