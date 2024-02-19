@@ -254,6 +254,18 @@
         }
       }
 
+    @media only screen and (min-width: 1601px) and (max-width: 2000px)  {
+        #bottom_main_id
+        {
+          top: 568px !important;
+        }
+      }
+
+
+
+
+
+        
       /* MacBook Air 13-inch with Retina Display */
       @media only screen and (min-width: 2560px) and (max-width: 2880px) and (min-height: 1600px) and (max-height: 1800px) {
         #bottom_main_id
