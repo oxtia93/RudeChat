@@ -204,14 +204,6 @@
   }
 }
 
-  @media screen and (min-width: 1440px) {
-  #bottom_main_id
-  {
-   top: 480px !important;
-  }
-}
-
-        
 
 /* Styles for screens larger than 1200px (common large desktop screens) */
 /* @media screen and (min-width: 1200px) {
