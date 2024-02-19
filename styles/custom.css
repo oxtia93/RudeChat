@@ -204,7 +204,7 @@
   }
 }
 
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1440px) {
   #bottom_main_id
   {
    top: 520px !important;
