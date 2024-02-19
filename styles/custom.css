@@ -204,19 +204,19 @@
 
         
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
- @media screen and (min-width: 900px) {
+/*  @media screen and (min-width: 900px) {
   #bottom_main_id
   {
    top: 318px !important;
   }
 } 
-
+ */
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
  @media screen and (min-width: 1024px) {
   #bottom_main_id
   {
-   top: 470px !important;
+   top: 430px !important;
   }
 } 
 
