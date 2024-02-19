@@ -199,6 +199,14 @@
       }
          
     }
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+      top: 360px !important;
+ }
+
+        
     
 
 
