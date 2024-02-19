@@ -229,7 +229,7 @@
     }
     
     /* Extra Large Devices (large desktops and high-resolution displays) */
-    @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    @media only screen and (min-width: 1200px) and (max-width: 1365px) {
       #bottom_main_id
       {
         top: 294px !important;
