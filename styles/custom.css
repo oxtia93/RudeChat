@@ -216,26 +216,26 @@
  @media screen and (min-width: 1024px) {
   #bottom_main_id
   {
-   top: 418px !important;
+   top: 470px !important;
   }
 } 
 
 /* Styles for screens larger than 1200px (common large desktop screens) */
- @media screen and (min-width: 1200px) {
+/*  @media screen and (min-width: 1200px) {
   #bottom_main_id
   {
    top: 320px !important;
   }
-} 
+}  */
 
         
 /* Styles for screens larger than 1600px (extra-large desktop screens) */
- @media screen and (min-width: 1600px) {
+/*  @media screen and (min-width: 1600px) {
   #bottom_main_id
   {
    top: 436px !important;
   }
-}  
+}   */
 
 
 
