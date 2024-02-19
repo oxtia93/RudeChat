@@ -199,43 +199,33 @@
       }
          
     }
+    
 
 
-
-        
-/* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
-/*  @media screen and (min-width: 900px) {
-  #bottom_main_id
-  {
-   top: 318px !important;
-  }
-} 
- */
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
- @media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   #bottom_main_id
   {
-   top: 430px !important;
+   top: 360px !important;
   }
-} 
+} */
 
 /* Styles for screens larger than 1200px (common large desktop screens) */
-/*  @media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   #bottom_main_id
   {
-   top: 320px !important;
+   top: 360px !important;
   }
-}  */
+} */
 
-        
 /* Styles for screens larger than 1600px (extra-large desktop screens) */
-/*  @media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
   #bottom_main_id
   {
-   top: 436px !important;
+   top: 486px !important;
   }
-}   */
+} */
 
 
 
