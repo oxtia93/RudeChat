@@ -187,22 +187,124 @@
     }
 
 
-    @media screen and (min-height: 860px) {
+
+
+
+
+
+
+
+
+        
+
+    @media only screen and (max-width: 575px) {
+      #bottom_main_id
+      {
+        top: 568px !important;
+      }
+    }
+    
+    /* Small Devices (tablets) */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      #bottom_main_id
+      {
+        top: 568px !important;
+      }
+    }
+    
+    /* Medium Devices (landscape tablets and small desktops) */
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      #bottom_main_id
+      {
+        top: 568px !important;
+      }
+    }
+    
+    /* Large Devices (desktops) */
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      #bottom_main_id
+      {
+        top: 568px !important;
+      }
+    }
+    
+    /* Extra Large Devices (large desktops and high-resolution displays) */
+    @media only screen and (min-width: 1200px) {
+      #bottom_main_id
+      {
+        top: 568px !important;
+      }
+    }
+
+
+
+          /* MacBook Air 11-inch */
+      @media only screen and (min-width: 1366px) and (max-width: 1440px) and (min-height: 768px) and (max-height: 800px) {
+          #bottom_main_id
+          {
+            top: 568px !important;
+          }
+       }
+
+      /* MacBook Air 13-inch */
+      @media only screen and (min-width: 1440px) and (max-width: 1600px) and (min-height: 900px) and (max-height: 1024px) {
+        #bottom_main_id
+        {
+          top: 568px !important;
+        }
+      }
+
+      /* MacBook Air 13-inch with Retina Display */
+      @media only screen and (min-width: 2560px) and (max-width: 2880px) and (min-height: 1600px) and (max-height: 1800px) {
+        #bottom_main_id
+        {
+          top: 568px !important;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+/*     @media screen and (min-height: 860px) {
       #bottom_main_id
       {
         top: 568px !important;
       }         
     }
-
+ */
 
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   #bottom_main_id
   {
    top: 310px !important;
   }
-}
+} */
 
 
 /* Styles for screens larger than 1200px (common large desktop screens) */
