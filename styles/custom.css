@@ -246,23 +246,14 @@
     }
 
 
-
-
-          /* MacBook Air 11-inch */
-      @media only screen and (min-width: 1366px) and (max-width: 1440px) and (min-height: 768px) and (max-height: 800px) {
-          #bottom_main_id
-          {
-            top: 568px !important;
-          }
-       }
-
-      /* MacBook Air 13-inch */
-      @media only screen and (min-width: 1440px) and (max-width: 1600px) and (min-height: 900px) and (max-height: 1024px) {
-        #bottom_main_id
-        {
-          top: 568px !important;
-        }
+    /* Extra Large Devices (large desktops and high-resolution displays) */
+    @media only screen and (min-width: 1501px) and (max-width: 1600px) {
+      #bottom_main_id
+      {
+        top: 310px !important;
       }
+    }
+
 
     @media only screen and (min-width: 1601px) and (max-width: 2000px)  {
         #bottom_main_id
