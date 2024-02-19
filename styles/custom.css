@@ -201,15 +201,8 @@
     }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-
-      top: 360px !important;
- }
 
         
-    
-
-
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
 /*  @media screen and (min-width: 1024px) {
