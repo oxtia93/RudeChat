@@ -189,46 +189,35 @@
 
     }
 
-/* 
+
     @media screen and (min-height: 860px) {
 
       #bottom_main_id
       {
-
+        /* top: 400px !important; */
         top: 568px !important;
       }
          
-    } */
+    }
+    
 
 
-           @media screen and (min-width: 1024px) {
-          #bottom_main_id
-          {
-          top: 468px !important;
-          }
-        }
-
-
-
-        
-        
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
-/*  @media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   #bottom_main_id
   {
-   top: 310px !important;
+   top: 360px !important;
   }
-}  */
+} */
 
-        
 /* Styles for screens larger than 1200px (common large desktop screens) */
-/*  @media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   #bottom_main_id
   {
-   top: 310px !important;
+   top: 360px !important;
   }
-}  */
+} */
 
 /* Styles for screens larger than 1600px (extra-large desktop screens) */
 /* @media screen and (min-width: 1600px) {
