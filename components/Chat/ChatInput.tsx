@@ -274,15 +274,15 @@ export const ChatInput = ({
     }
   }, [activePromptIndex]);
 
-  useEffect(() => {
-    if (textareaRef && textareaRef.current) {
-      textareaRef.current.style.height = 'inherit';
-      textareaRef.current.style.height = `${textareaRef.current?.scrollHeight}px`;
-      textareaRef.current.style.overflow = `${
-        textareaRef?.current?.scrollHeight > 400 ? 'auto' : 'hidden'
-      }`;
-    }
-  });
+  // useEffect(() => {
+  //   if (textareaRef && textareaRef.current) {
+  //     textareaRef.current.style.height = 'inherit';
+  //     textareaRef.current.style.height = `${textareaRef.current?.scrollHeight}px`;
+  //     textareaRef.current.style.overflow = `${
+  //       textareaRef?.current?.scrollHeight > 400 ? 'auto' : 'hidden'
+  //     }`;
+  //   }
+  // });
 
   useEffect(() => {
     const handleOutsideClick = (e: MouseEvent) => {
