@@ -357,10 +357,10 @@ export const ChatInput = ({
             </div>
           )}
 
-          <textarea id='send_msg'
+{/*           <textarea id='send_msg'
             ref={textareaRef}
-            className=""
-{/*                  className="m-0 w-full resize-none border-0 bg-transparent p-0 py-2 pr-8 pl-10 text-black dark:bg-transparent dark:text-white md:py-3 md:pl-10" */}
+         
+            className="m-0 w-full resize-none border-0 bg-transparent p-0 py-2 pr-8 pl-10 text-black dark:bg-transparent dark:text-white md:py-3 md:pl-10"
             style={{
               resize: 'none',
               bottom: `${textareaRef?.current?.scrollHeight}px`,              
@@ -380,7 +380,7 @@ export const ChatInput = ({
             onCompositionEnd={() => setIsTyping(false)}
             onChange={handleChange}
             onKeyDown={handleKeyDown}
-          />
+          /> */}
 
           <button
             className="absolute send_btn_area right-2 top-2 rounded-sm  text-neutral-800 opacity-60 hover:bg-neutral-200 hover:text-neutral-900 dark:bg-opacity-50 dark:text-neutral-100 dark:hover:text-neutral-200"
