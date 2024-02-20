@@ -22,7 +22,7 @@
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       #bottom_main_id
       {
-        top: 568px !important;
+        top: 400px !important;
       }
     }
     
@@ -30,7 +30,7 @@
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       #bottom_main_id
       {
-        top: 470px !important;
+        top: 420px !important;
       }
     }
     
