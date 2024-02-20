@@ -83,34 +83,6 @@
 
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-height: 601px) and (max-height: 900px) {
-    /* Your styles for small devices here */
-}
-
-/* Medium devices (landscape tablets, 900px and up) */
-@media only screen and (min-height: 901px) and (max-height: 1200px) {
-      #bottom_main_id
-        {
-          top: 568px !important;
-        }
-}
-
-/* Large devices (laptops/desktops, 1200px and up) */
-@media only screen and (min-height: 1201px) {
-    /* Your styles for large devices here */
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
