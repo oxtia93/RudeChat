@@ -359,16 +359,17 @@ export const ChatInput = ({
 
           <textarea id='send_msg'
             ref={textareaRef}
-            className="m-0 w-full resize-none border-0 bg-transparent p-0 py-2 pr-8 pl-10 text-black dark:bg-transparent dark:text-white md:py-3 md:pl-10"
+            className="m-0 w-full resize-none border-0 bg-transparent  text-black dark:bg-transparent dark:text-white"
+{/*                  className="m-0 w-full resize-none border-0 bg-transparent p-0 py-2 pr-8 pl-10 text-black dark:bg-transparent dark:text-white md:py-3 md:pl-10" */}
             style={{
               resize: 'none',
               bottom: `${textareaRef?.current?.scrollHeight}px`,              
               maxHeight: '400px',
-              // overflow: `${
-              //   textareaRef.current && textareaRef.current.scrollHeight > 400
-              //     ? 'auto'
-              //     : 'hidden'
-              // }`,
+                   overflow: `${
+                   textareaRef.current && textareaRef.current.scrollHeight > 400
+                ? 'auto'
+                 : 'hidden'
+              }`,
             }}
             placeholder={
               t('Message ChatGPT...') || ''
