@@ -183,7 +183,7 @@
   #send_msg
   {
     border: solid;
-    height: '42px !important',
+/*     height: '42px !important', */
     border-radius: 10px;
     border-width: 1px;
     border-color: #ffffff38;
