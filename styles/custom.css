@@ -47,7 +47,7 @@
     @media only screen and (min-width: 1366px) and (max-width: 1500px) {
       #bottom_main_id
       {
-        top: 370px !important;
+        top: 380px !important;
       }
     }
 
@@ -56,8 +56,8 @@
     @media only screen and (min-width: 1501px) and (max-width: 1600px) {
       #bottom_main_id
       {
-/*         top: 290px !important; */
-          top: 35vh !important;
+        top: 290px !important;
+/*           top: 35vh !important; */
       }
     }
 
