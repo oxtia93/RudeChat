@@ -237,11 +237,11 @@
     }
 
 
-    /* Extra Large Devices (large desktops and high-resolution displays) */
+    /* Mac Screen -  Extra Large Devices (large desktops and high-resolution displays) */
     @media only screen and (min-width: 1366px) and (max-width: 1500px) {
       #bottom_main_id
       {
-        top: 390px !important;
+        top: 380px !important;
       }
     }
 
