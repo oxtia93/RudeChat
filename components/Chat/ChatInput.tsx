@@ -364,11 +364,11 @@ export const ChatInput = ({
               resize: 'none',
               bottom: `${textareaRef?.current?.scrollHeight}px`,              
               maxHeight: '400px',
-              overflow: `${
-                textareaRef.current && textareaRef.current.scrollHeight > 400
-                  ? 'auto'
-                  : 'hidden'
-              }`,
+              // overflow: `${
+              //   textareaRef.current && textareaRef.current.scrollHeight > 400
+              //     ? 'auto'
+              //     : 'hidden'
+              // }`,
             }}
             placeholder={
               t('Message ChatGPT...') || ''
