@@ -297,13 +297,13 @@
 
 
 
-/*     @media screen and (min-height: 860px) {
+    @media screen and (min-height: 860px) {
       #bottom_main_id
       {
-        top: 568px !important;
+        top: 480px !important;
       }         
     }
- */
+
 
 
 /* Styles for screens larger than 1024px (typical medium-sized screens like Mac screens) */
