@@ -1,12 +1,11 @@
 
-
 /* Media Queries for Desktop Screens */
 
 
   @media only screen and (max-width: 575px) {
       #bottom_main_id
       {
-        top: 568px !important;
+        top: 560px !important;
       }
     }
     
@@ -71,7 +70,7 @@
     @media only screen and (min-width: 1501px) and (max-width: 1600px) {
       #bottom_main_id
       {
-        top: 280px !important;
+        top: 440px !important;
 /*           top: 35vh !important; */
       }
     }
